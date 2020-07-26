@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+html,body {
+	height:100%; 
+}
+*{
+	text-align: center;
+	margin: 0;
+	font-family: 'Sofia', cursive;
+}
+.wrapper{
+	background-color: #dfe6e9;
+	height: 100%;
+}
+h1{
+	background-color: #fab1a0;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#console{
+	text-align: left;
+}
+#try{
+	width: 150px;
+	margin: 2em;
+}
+input[type="submit"]{
+	display: inline-block;
+	background: #fab1a0;
+	color: #fff;
+	padding: 5px;
+	border: 2px white solid;
+}
